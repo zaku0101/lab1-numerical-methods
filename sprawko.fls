@@ -130,6 +130,11 @@ INPUT .\sprawko.toc
 INPUT .\sprawko.toc
 INPUT sprawko.toc
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plbx10.tfm
+OUTPUT sprawko.toc
+OUTPUT sprawko.pdf
+INPUT C:\Users\Kuba\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plrm.enc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr7.tfm
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr5.tfm
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi10.tfm
@@ -144,17 +149,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-OUTPUT sprawko.toc
-OUTPUT sprawko.pdf
-INPUT C:\Users\Kuba\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plrm.enc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plms.enc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plbx12.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plti10.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plit.enc
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plme.enc
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plmi.enc
+INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plms.enc
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plsc.enc
 INPUT .\zad5.pdf
 INPUT .\zad5.pdf
@@ -218,5 +215,3 @@ INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy10.pfb
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy10.pfb
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy7.pfb
 INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plti10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plti10.pfb

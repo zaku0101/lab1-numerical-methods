@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710448977.16218 "c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex" "sprawko.pdf" "sprawko" 1710448978.06841 0
+["pdflatex"] 1710455198.95227 "c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex" "sprawko.pdf" "sprawko" 1710455199.85369 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -42,7 +42,6 @@
   "C:/Users/Kuba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710444334 86553 91af261fa287312f2fb1f66a097366be ""
   "C:/Users/Kuba/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1710444470 11548 9b42b82756966be7a3b77fe84082c187 ""
   "C:/Users/Kuba/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710444321 24223326 ad07a308cc991adf086c94bb9a926b2d ""
-  "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plit.enc" 958947240 1946 62ba825cda1ff16dbaa60d53ac60525a ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plmi.enc" 958947240 2005 f094775651a1386335c158fb632529f1 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plms.enc" 958947240 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
@@ -69,7 +68,6 @@
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/tfm/public/pl/plsy6.tfm" 955577220 1300 730d55d47130c8c9a62c9e7eab4ae96a ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/tfm/public/pl/plsy7.tfm" 955577220 1304 a6a2c86c403d8bc56664eeac17804b8a ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/tfm/public/pl/plsy8.tfm" 955577220 1304 3b6e6a90176144a582c7bcae45156f9b ""
-  "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/tfm/public/pl/plti10.tfm" 955577220 2240 33876944658f33d5fc3eacb794ebb2f3 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx10.pfb" 958515180 27050 0da5f310861fb948b3c5e6a53aad685b ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx12.pfb" 958515180 26733 3fa55bab1df289b642fa8cd9e61fb25f ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plex10.pfb" 958515180 22371 094f80a5a689f2eefc72bff87ecbc407 ""
@@ -81,7 +79,6 @@
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr7.pfb" 958515180 27523 c9185de4b4f361086bdc0d056fdd2b09 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plsy10.pfb" 958515180 26714 6fe260cd3a16c4a700b121f4edac67f2 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plsy7.pfb" 958515180 26709 a69e1f5beb5c8b5310dedfc070910150 ""
-  "C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plti10.pfb" 958515180 32502 3bafa9fb9fa291ba4ad1980c7ecad103 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/eso-pic/eso-pic.sty" 1683737457 11876 6ef493863ae0d7a984706973240c2237 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/gauss/gauss.sty" 1319638554 61954 3356ee87d4088da24e99605c7b1e50c0 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape-nometadata.sty" 1668505912 6572 ea530fbbe537629fd97736d33babc07d ""
@@ -93,10 +90,10 @@
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/polski/omxplex.fd" 1630159173 1289 c085201d50568bfe8b525969526e4fd0 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/polski/ot4cmr.fd" 1630159173 2605 fe3d35a54ea9c9b798eb3aa21b9ef2f6 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/polski/polski.sty" 1630159173 13344 a993928ba746ec4e012bfd315bcc48d8 ""
-  "c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex" 1710448976 14880 f6062de532eb15bb78595821685f9faa ""
-  "sprawko.aux" 1710448977 1112 06253eef191b4f5a2c8d2b1c0d099032 "pdflatex"
-  "sprawko.tex" 1710448976 14880 f6062de532eb15bb78595821685f9faa ""
-  "sprawko.toc" 1710448977 669 544cce56f08e6b853236dbb0d30562c9 "pdflatex"
+  "c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex" 1710455198 7457 bd3559c6a6255417824d250626908b11 ""
+  "sprawko.aux" 1710455199 1143 8ce373f245ee04c57787dd90771915b5 "pdflatex"
+  "sprawko.tex" 1710455198 7457 bd3559c6a6255417824d250626908b11 ""
+  "sprawko.toc" 1710455199 659 6e89b1d93e2ab930d78a450ec69c2028 "pdflatex"
   "zad5.pdf" 1710323531 743285 95e479a4044f12e174d9193f7d7760cc ""
   (generated)
   "sprawko.aux"

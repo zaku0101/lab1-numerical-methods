@@ -1,10 +1,11 @@
 \contentsline {section}{\numberline {1}Wstęp}{2}{}%
-\contentsline {section}{\numberline {2}Pierwsze próby}{2}{}%
-\contentsline {section}{\numberline {3}Praca na danych z MATLABem}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Wycięcie prostopadłościanu z danych}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Wartościowanie anten}{4}{}%
-\contentsline {section}{\numberline {4}Szukanie klasyfikatora piętra}{5}{}%
-\contentsline {section}{\numberline {5}Zadanie nr. 1}{5}{}%
-\contentsline {section}{\numberline {6}Zadanie nr. 5}{7}{}%
-\contentsline {section}{\numberline {7}Selekcja cech}{13}{}%
-\contentsline {section}{\numberline {8}Zakończenie}{13}{}%
+\contentsline {section}{\numberline {2}Zadanie nr. 1}{2}{}%
+\contentsline {section}{\numberline {3}Zadanie nr. 2}{4}{}%
+\contentsline {section}{\numberline {4}Zadanie nr. 3}{5}{}%
+\contentsline {section}{\numberline {5}Zadanie nr. 4}{5}{}%
+\contentsline {section}{\numberline {6}Zadanie nr. 5}{5}{}%
+\contentsline {section}{\numberline {7}Zadanie nr. 6}{11}{}%
+\contentsline {section}{\numberline {8}Zadanie nr. 7}{11}{}%
+\contentsline {section}{\numberline {9}Zadanie nr. 8}{11}{}%
+\contentsline {section}{\numberline {10}Zadanie nr. 9}{11}{}%
+\contentsline {section}{\numberline {11}Zakończenie}{11}{}%
