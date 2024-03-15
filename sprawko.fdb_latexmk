@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1710502113.50426 "/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex" "sprawko.pdf" "sprawko" 1710502113.99782 0
-  "/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex" 1710502112.85358 11709 6935af7f22c39a62e7cd557fda152861 ""
+["pdflatex"] 1710502187.40683 "/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex" "sprawko.pdf" "sprawko" 1710502187.87998 0
+  "/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex" 1710502186.75015 11709 6935af7f22c39a62e7cd557fda152861 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710495693.88913 86553 91af261fa287312f2fb1f66a097366be ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1710495695.96637 11548 8fc00733ebe1ad20b10eefa02d9de20d ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1710495684.02619 24240993 5f380fc19045342e85560256ac255aba ""
@@ -91,9 +91,9 @@
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty" 1710495158.13645 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty" 1710495158.14252 1618 c5f08dcf49a56107311a81073b35fa4e ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1710495165.57803 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "sprawko.aux" 1710502113.89176 1144 5af9ea20ca74ff097ae5ac9e2ecb2fb7 "pdflatex"
-  "sprawko.tex" 1710502112.85358 11709 6935af7f22c39a62e7cd557fda152861 ""
-  "sprawko.toc" 1710502113.89255 660 df26a058bd8615baa857488d40c3299d "pdflatex"
+  "sprawko.aux" 1710502187.77684 1144 5af9ea20ca74ff097ae5ac9e2ecb2fb7 "pdflatex"
+  "sprawko.tex" 1710502186.75015 11709 6935af7f22c39a62e7cd557fda152861 ""
+  "sprawko.toc" 1710502187.77763 660 df26a058bd8615baa857488d40c3299d "pdflatex"
   "zad5.pdf" 1710494918.3947 743285 9d4ac96b40974cd488b27718a5eeef24 ""
   (generated)
   "sprawko.aux"
