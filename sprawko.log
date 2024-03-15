@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  14 MAR 2024 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.15)  15 MAR 2024 12:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex"
-(c:/Users/Kuba/Desktop/SZKULKA/SEM 8/Numerical methods/lab1/sprawko.tex
+**"/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex"
+(/Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+(/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+(/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
@@ -23,25 +23,25 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen141
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count196
@@ -91,27 +91,27 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\polski.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/polski.sty
 Package: polski 2021/08/25 v1.3.6 Polish language package
 
    Inputenc package detected. Catcodes not changed.
    Switching to Polish text encoding and Polish maths fonts.
-(C:\Program Files\MiKTeX\tex/latex/base\ot4enc.def
+(/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ot4enc.def
 File: ot4enc.def 2021/04/29 v2.0v Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 362.
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\ot4cmr.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -144,31 +144,31 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 362.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 362.
-) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-) (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
- (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count274
 \calc@Bcount=\count275
@@ -180,17 +180,17 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count276
 \calc@Cskip=\skip55
-) (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen154
 \ESO@tempdimb=\dimen155
- (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -204,7 +204,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 \AM@pagewidth=\dimen156
 \AM@pageheight=\dimen157
 \AM@fboxrule=\dimen158
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count277
@@ -215,7 +215,7 @@ File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks27
 \c@AM@survey=\count279
 \AM@templatesizebox=\box54
-) (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/gauss\gauss.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gauss/gauss.sty
 Package: gauss 2003/01/14
 \g@trash=\box55
 \g@matrixbox=\box56
@@ -251,10 +251,10 @@ Package: gauss 2003/01/14
 \labelskip=\dimen173
 \colopminsize=\dimen174
 \rowopminsize=\dimen175
-) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count289
-) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box63
@@ -277,7 +277,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count291
 \scratchdimen=\dimen176
@@ -290,32 +290,32 @@ LaTeX Font Info:    ... okay on input line 27.
 \MPnumerator=\count295
 \makeMPintoPDFobject=\count296
 \everyMPtoPDFconversion=\toks29
-) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+)) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+) (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 31.
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\omlplm.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 31.
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\omsplsy.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 31.
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\omxplex.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -325,11 +325,11 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 31.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (sprawko.toc)
 \tf@toc=\write3
@@ -337,7 +337,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{C:/Users/Kuba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plrm.enc}]
+{/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -358,127 +358,127 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 57.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 57.
-[2{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plms.enc}] [3{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plsc.enc}] [4]
-<zad5.pdf, id=26, 614.295pt x 806.26219pt>
+[2] [3] [4] [5]
+<zad5.pdf, id=29, 614.295pt x 806.26219pt>
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf>
-Package pdftex.def Info: zad5.pdf  used on input line 252.
+Package pdftex.def Info: zad5.pdf  used on input line 335.
 (pdftex.def)             Requested size: 614.29349pt x 806.26022pt.
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf>
-Package pdftex.def Info: zad5.pdf  used on input line 252.
+Package pdftex.def Info: zad5.pdf  used on input line 335.
 (pdftex.def)             Requested size: 614.29349pt x 806.26022pt.
-<zad5.pdf, id=29, page=1, 614.295pt x 806.26219pt>
+<zad5.pdf, id=32, page=1, 614.295pt x 806.26219pt>
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf, page 1>
-Package pdftex.def Info: zad5.pdf , page1 used on input line 252.
+Package pdftex.def Info: zad5.pdf , page1 used on input line 335.
 (pdftex.def)             Requested size: 614.29349pt x 806.26022pt.
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf, page 1>
-Package pdftex.def Info: zad5.pdf , page1 used on input line 252.
+Package pdftex.def Info: zad5.pdf , page1 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-[5]
+[6]
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf, page 1>
-Package pdftex.def Info: zad5.pdf , page1 used on input line 252.
-(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
-File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 1>
-Package pdftex.def Info: zad5.pdf , page1 used on input line 252.
+Package pdftex.def Info: zad5.pdf , page1 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
 <use zad5.pdf, page 1>
-Package pdftex.def Info: zad5.pdf , page1 used on input line 252.
-(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
- [6
-
- <./zad5.pdf>]
-<zad5.pdf, id=45, page=2, 614.295pt x 806.26219pt>
-File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 2>
-Package pdftex.def Info: zad5.pdf , page2 used on input line 252.
+Package pdftex.def Info: zad5.pdf , page1 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 2>
-Package pdftex.def Info: zad5.pdf , page2 used on input line 252.
-(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
-File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 2>
-Package pdftex.def Info: zad5.pdf , page2 used on input line 252.
+<use zad5.pdf, page 1>
+Package pdftex.def Info: zad5.pdf , page1 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
  [7
 
  <./zad5.pdf>]
-<zad5.pdf, id=50, page=3, 614.295pt x 806.26219pt>
+<zad5.pdf, id=49, page=2, 614.295pt x 806.26219pt>
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 3>
-Package pdftex.def Info: zad5.pdf , page3 used on input line 252.
+<use zad5.pdf, page 2>
+Package pdftex.def Info: zad5.pdf , page2 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 3>
-Package pdftex.def Info: zad5.pdf , page3 used on input line 252.
+<use zad5.pdf, page 2>
+Package pdftex.def Info: zad5.pdf , page2 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 3>
-Package pdftex.def Info: zad5.pdf , page3 used on input line 252.
+<use zad5.pdf, page 2>
+Package pdftex.def Info: zad5.pdf , page2 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
  [8
 
  <./zad5.pdf>]
-<zad5.pdf, id=54, page=4, 614.295pt x 806.26219pt>
+<zad5.pdf, id=53, page=3, 614.295pt x 806.26219pt>
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 4>
-Package pdftex.def Info: zad5.pdf , page4 used on input line 252.
+<use zad5.pdf, page 3>
+Package pdftex.def Info: zad5.pdf , page3 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 4>
-Package pdftex.def Info: zad5.pdf , page4 used on input line 252.
+<use zad5.pdf, page 3>
+Package pdftex.def Info: zad5.pdf , page3 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 4>
-Package pdftex.def Info: zad5.pdf , page4 used on input line 252.
+<use zad5.pdf, page 3>
+Package pdftex.def Info: zad5.pdf , page3 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
  [9
 
  <./zad5.pdf>]
-<zad5.pdf, id=58, page=5, 614.295pt x 806.26219pt>
+<zad5.pdf, id=57, page=4, 614.295pt x 806.26219pt>
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 5>
-Package pdftex.def Info: zad5.pdf , page5 used on input line 252.
+<use zad5.pdf, page 4>
+Package pdftex.def Info: zad5.pdf , page4 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 5>
-Package pdftex.def Info: zad5.pdf , page5 used on input line 252.
+<use zad5.pdf, page 4>
+Package pdftex.def Info: zad5.pdf , page4 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
 File: zad5.pdf Graphic file (type pdf)
-<use zad5.pdf, page 5>
-Package pdftex.def Info: zad5.pdf , page5 used on input line 252.
+<use zad5.pdf, page 4>
+Package pdftex.def Info: zad5.pdf , page4 used on input line 335.
 (pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
  [10
 
- <./zad5.pdf>] [11] (sprawko.aux)
+ <./zad5.pdf>]
+<zad5.pdf, id=61, page=5, 614.295pt x 806.26219pt>
+File: zad5.pdf Graphic file (type pdf)
+<use zad5.pdf, page 5>
+Package pdftex.def Info: zad5.pdf , page5 used on input line 335.
+(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
+File: zad5.pdf Graphic file (type pdf)
+<use zad5.pdf, page 5>
+Package pdftex.def Info: zad5.pdf , page5 used on input line 335.
+(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
+File: zad5.pdf Graphic file (type pdf)
+<use zad5.pdf, page 5>
+Package pdftex.def Info: zad5.pdf , page5 used on input line 335.
+(pdftex.def)             Requested size: 605.88556pt x 795.22482pt.
+ [11
+
+ <./zad5.pdf>] [12] [13] [14] [15] (sprawko.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4845 strings out of 474435
- 71654 string characters out of 5751751
- 1952190 words of memory out of 5000000
- 27088 multiletter control sequences out of 15000+600000
+ 4852 strings out of 474436
+ 75264 string characters out of 5733960
+ 1955187 words of memory out of 5000000
+ 27098 multiletter control sequences out of 15000+600000
  570023 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,79p,1050b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Kuba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plsy7.pfb>
-Output written on sprawko.pdf (11 pages, 839191 bytes).
+ 68i,17n,79p,635b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plrm.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plsc.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plms.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plmi.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plme.enc} </Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plbx10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plbx12.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plex10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plmi10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr12.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr17.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr5.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr7.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy7.pfb>
+Output written on sprawko.pdf (15 pages, 847586 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
