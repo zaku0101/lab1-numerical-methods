@@ -20,8 +20,17 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/li
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
@@ -54,9 +63,6 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gr
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
@@ -65,15 +71,6 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/to
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eso-pic/eso-pic.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eso-pic/eso-pic.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pppdftex.def
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pppdftex.def
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pppdftex.def
@@ -81,6 +78,9 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ga
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gauss/gauss.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./sprawko.aux
@@ -158,6 +158,11 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/pu
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pl/plr9.tfm
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/ot4cmtt.fd
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/ot4cmtt.fd
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/ot4cmtt.fd
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pl/pltt9.tfm
 INPUT ./zad5.pdf
 INPUT ./zad5.pdf
 INPUT ./zad5.pdf
@@ -197,6 +202,7 @@ INPUT ./zad5.pdf
 INPUT ./zad5.pdf
 INPUT sprawko.aux
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plmi.enc
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/pltt.enc
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plrm.enc
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plsc.enc
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plms.enc
@@ -225,3 +231,5 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy10.pfb
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy7.pfb
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy7.pfb
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/pltt9.pfb
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/pltt9.pfb

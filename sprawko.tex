@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{listings}
-\usepackage[utf8]{inputenc}
+\usepackage{color}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -23,7 +23,30 @@
   \strut\vrule % the `\vrule` is as high and deep as a strut
   \hspace{-\arraycolsep}%
 }
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
 
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  extendedchars=\true,
+  inputencoding=utf8x
+}
+
+\lstset{literate={ą}{{\k{a}}}1 {ł}{{\l{}}}1 {ń}{{\'n}}1 {ę}{{\k{e}}}1 {ś}{{\'s}}1 {ż}{{\.z}}1 {ó}{{\'o}}1 {ź}{{\'z}}1 {Ą}{{\k{A}}}1 {Ł}{{\L{}}}1 {Ń}{{\'N}}1 {Ę}{{\k{E}}}1 {Ś}{{\'S}}1 {Ż}{{\.Z}}1 {Ó}{{\'O}}1 {Ź}{{\'Z}}1 }
 
 \begin{document}
 \title{Sprawozdanie - Metody numeryczne i optymailzacja}
@@ -123,7 +146,6 @@ Do wykonania tego zadania rozpisano lewą stronę jako macierz 4x4 oraz wektor w
 0 & 0 & 0 & 1 & \BAR & 4
  \end{gmatrix}
 \]
-
 \[
   \centering
   \linespread{2}\selectfont
@@ -162,10 +184,39 @@ Do wykonania tego zadania rozpisano lewą stronę jako macierz 4x4 oraz wektor w
 
 Napisano kod w języku Python, który wykonuje eliminację Gaussa bez wyboru elementu podstawowego. Kod znajduje się poniżej.
 \begin{center}
-  (TUTAJ MA BYĆ KOD)
+
+\begin{lstlisting}
+
+import numpy as np
+
+def gaussian_elimination(matrix, vector):
+    n = len(vector)
+
+    # Tworzenie rozszerzonej macierzy [matrix | vector]
+    augmented_matrix = np.hstack((matrix, vector))
+
+    # Eliminacja Gaussa
+    for i in range(n):
+        # Sprawdzanie, czy na przekątnej jest 0
+        if augmented_matrix[i, i] == 0:
+            raise ValueError("Zero na przekątnej. Metoda eliminacji Gaussa nie może być kontynuowana.")
+
+        # Eliminacja współczynników pod przekątną
+        for j in range(i + 1, n):
+            ratio = augmented_matrix[j, i] / augmented_matrix[i, i]
+            augmented_matrix[j, i:] = augmented_matrix[j, i:] - ratio * augmented_matrix[i, i:]
+
+    # Rozwiązanie układu równań z wstecznym podstawianiem
+    for i in range(n - 1, -1, -1):
+        augmented_matrix[i, :] = augmented_matrix[i, :] / augmented_matrix[i, i]
+        for j in range(i - 1, -1, -1):
+            augmented_matrix[j, :] = augmented_matrix[j, :] - augmented_matrix[j, i] * augmented_matrix[i, :]
+
+    return augmented_matrix
+
+\end{lstlisting}
+
 \end{center}
-
-
 \section{Zadanie nr. 2}
 
 Rozwiązać poniższy układ równań liniowych metodą eliminacji Gaussa z częściowym
@@ -249,9 +300,13 @@ Wyjaśnij dlaczego elimin. Gaussa bez wyboru elementu podstawowego nie działa p
 Wyjaśnienie dlaczego eliminacja Gaussa bez wyboru elementu podstawowego przedstawiona jest na przykładzie następnego zadania.
 Kod różni się w małym stopniu od tego zaimplementowanego w poprzednim zadaniu. Zmiana polega na dodaniu linijek odpowiadających za wybór elementu. Przedstawiona została poniżej.
 \begin{center}
-  (LINIJKI WYBIERAJĄCE ELEMENT)
-\end{center}
 
+  (LINIJKI WYBIERAJĄCE ELEMENT)
+
+  \begin{lstlisting}
+    
+  \end{lstlisting}
+\end{center}
 \section{Zadanie nr. 3}
 
 Rozwiązać ręcznie układ równań liniowych:
@@ -385,7 +440,6 @@ Dla pierwszego przypadku wektor wyjściowy miał wartości:
   \end{equation}
 
 Ta dość spora zmiana jest związana ze wskaźnikiem uwarunkowania macierzy, który dla obu przypadków jest dosyć wysoki. Oznacza to, że problem jest źle uwarunkowany. Tego typu zagadnienia nie nadają się do numerycznego rozwiązania, ponieważ już sam błąd wynikający z numerycznej reprezentacji liczb wprowadza nieproporcjonalnie duży błąd w odpowiedzi.
-
 \section{Zadanie nr. 5}
 Zaimplementuj dowolny algorytm do faktoryzacji LU i zastosuj do macierzy:
 \begin{equation}
@@ -397,10 +451,45 @@ Zaimplementuj dowolny algorytm do faktoryzacji LU i zastosuj do macierzy:
     0 & 0 & 1 & 1
   \end{gmatrix}
 \end{equation}
-Wyznacz det(A) na podstawie faktorów. Znajdź rozwiązanie dla układu równań Ax b dla b = $[1...1]^{T}$ , posługując się otrzymanymi faktorami.
+
+Wyznacz det(A) na podstawie faktorów. Znajdź rozwiązanie dla układu równań Ax b dla b = $[1...1]^{T}$ , posługując się otrzymanymi faktorami.\\
 
 Zdecydowano się na algorytm Crout. Poniżej implementacja algorytmu na zadanej macierzy.\\
 \includepdf[pages=-]{zad5.pdf}
+
+Poniżej implementacja programowa w języku Python:
+
+\begin{lstlisting}
+  import numpy as np
+
+
+def LU(A):
+    n = len(A)
+    L = np.zeros((n, n))
+    U = np.zeros((n, n))
+
+    for i in range(n):
+        # Przekątna macierzy L wynosi 1
+        L[i][i] = 1
+
+        for j in range(i, n):
+            #  Obliczanie elementów macierzy górnej trójkątnej U
+            sum = 0
+            for k in range(i):
+                sum += L[i][k] * U[k][j]
+            U[i][j] = A[i][j] - sum
+
+        for j in range(i+1, n):
+            #  Oblicznie elementów macierzy dolnej trójkątnej L
+            sum = 0
+            for k in range(i):
+                sum += L[j][k] * U[k][i]
+            L[j][i] = (A[j][i] - sum) / U[i][i]
+
+    return L, U
+
+\end{lstlisting}
+
 \section{Zadanie nr. 6}
 Przekształć ręcznie poniższą macierz do postaci RREF, wyznacz rank (A) oraz
 wskaż kolumny odpowiadające zmiennym podstawowym i wolnym.
@@ -485,7 +574,7 @@ Etapy rozwiązania macierzy przedstawiono poniżej:
 \end{gmatrix}
 \]
 
-Wartość rank(A) = 3, zmienne podstawowe ($A_{*1},A_{*3},A_{*5}$), zmienne wolne ($A_{*2},A_{*4}$)
+Wartość rank(A) = 3, zmienne podstawowe ($A_{*1},A_{*3},A_{*5}$), zmienne wolne ($A_{*2},A_{*4}$)\\
 
 \section{Zadanie nr. 7}
 Zaimplementuj dowolną metodę ortogonalizacji macierzy i wyznacz faktoryzację
@@ -501,6 +590,31 @@ QR macierzy:
 \end{equation}
 place your code here
 
+\begin{lstlisting}
+  import numpy as np
+
+def gram_schmidt(A):
+    m, n = A.shape
+    Q = np.zeros((m, n))
+    R = np.zeros((n, n))
+
+    for i in range(n):
+        #  Obliczenie ortogonalnego wektora q_i
+        q = A[:, i]
+        for j in range(i):
+            # Odejmowanie rzutu q na każde q_j
+            R[j, i] = np.dot(Q[:, j], A[:, i])
+            q = q - R[j, i] * Q[:, j]
+        # Obliczenie wielkości q (która jest przekątną R)
+        R[i, i] = np.linalg.norm(q)
+        # Unikanie dzielenia przez zero
+        if R[i, i] == 0:
+            raise ValueError("Matrix A has linearly dependent vectors")
+        # Step 3: Normalize q to get the orthonormal vector q_i
+        Q[:, i] = q / R[i, i]
+    return Q, R
+
+\end{lstlisting}
 \section{Zadanie nr. 8}
 
 Niech Ax = b , gdzie , symbol  oznacza iloczyn Kroneckera,
