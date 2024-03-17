@@ -1,12 +1,25 @@
-PWD /Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods
+PWD /Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/zaku/Desktop/SQL/numerical methods/lab1-numerical-methods/sprawko.tex
+INPUT /Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex
 OUTPUT sprawko.log
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
@@ -34,8 +47,6 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/to
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
-INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
