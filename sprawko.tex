@@ -454,7 +454,7 @@ Zaimplementuj dowolny algorytm do faktoryzacji LU i zastosuj do macierzy:
 
 Wyznacz det(A) na podstawie faktorów. Znajdź rozwiązanie dla układu równań Ax b dla b = $[1...1]^{T}$ , posługując się otrzymanymi faktorami.\\
 
-Zdecydowano się na algorytm Crout. Poniżej implementacja algorytmu na zadanej macierzy.\\
+Zdecydowano się na wykorzystanie algorytm Crout'a. Poniższa implementacja algorytmu na zadanej macierzy polegająca na zastąpieniu macierzy A mnożeniem macierzy dolno i górno trójkątnej o przekątnej składającej się z jedynek. Następnie obliczane są elementy macierzy L i U za pomocą równań bazujących na mnożeniu macierzy L i U oraz przyrownaniu wyników mnożeń do odpowiednich elementów macierzy A. \\
 \includepdf[pages=-]{zad5.pdf}
 
 Poniżej implementacja programowa w języku Python:
@@ -588,7 +588,92 @@ QR macierzy:
   2 & 3 & 0 & -1 
 \end{gmatrix}
 \end{equation}
-place your code here
+
+Zaimplementuj dowolną metodę ortogonalizacji macierzy i wyznacz faktoryzację
+QR macierzy:
+\begin{equation}
+  A=
+  \begin{gmatrix}[b]
+  -2 & 1 & 2 & 1 \\
+  2 & -1 & 2 & 1\\
+  2 & 3 & -4 & 5\\
+  2 & 3 & 0 & -1 
+\end{gmatrix}
+\end{equation}
+
+Do ortogonalizacji macierzy i stworzenia macierzy Q wykorzytano metodę Grama-Schmidt'a. Początkowo macierz podzielono na 4 osobne wektory wzdłuż kolumn.
+Następnie zaczęto wyliczać wartość $u_{1}$. Dla tego przypadku.
+\begin{equation}
+  u_{1}=a_{1}
+\end{equation}
+Następnie wyliczono normę dla tego wektora.
+\begin{equation}
+  ||u_{1}|| = \sqrt{{a_{11}}^2+{a_{12}}^2+{a_{13}}^2+{a_{14}}^2}=4
+\end{equation}
+Po wyliczeniu wartości $u_{1} oraz ||u_{1}||$ wyliczono pierwszą kolumnę macierzy Q ze wzoru.
+\begin{equation}
+  q_{1}=\frac{u_{1}}{||u_{1}||} =
+  \begin{gmatrix}[b]
+    -0.5\\
+    0.5\\
+    0.5\\
+    0.5
+  \end{gmatrix}
+\end{equation}
+
+Kolejne kolumny zostały przeliczane stosując wzoru jak w poprzednim przykładzie. Następnie zsumowano je tworząc macierz Q 4x4.
+\begin{equation}
+  Q =
+  \begin{gmatrix}[b]
+    -0.5 & 0.5 & 0.5 & 0.5\\
+    0.5 & -0.5 & 0.5 & 0.5\\
+    0.5 & 0.5 & -0.5 & 0.5\\
+    0.5 & 0.5 & 0.5 & -0.5
+  \end{gmatrix}
+\end{equation}
+W przypadku wyliczenia macierzy R możemy ją wyliczyć przekształcając wzór
+\begin{equation}
+  A = QR / * {Q}^T
+\end{equation}
+\begin{equation}
+  AQ^{T} = QR{Q}^T
+\end{equation}
+Z własności macierzy ortogonalnych wynika następująca zależność
+\begin{equation}
+  Q^{T}Q = I
+\end{equation}
+I jest macierzą jednostkową, która jest neutralna dla mnożenia macierzy co za tym idzie nasz wzór wygląda następująco
+\begin{equation}
+  A{Q}^T = R
+\end{equation}
+Podstawiając do tego wzoru wartości otrzymujemy że
+\begin{equation}
+  R =
+  \begin{gmatrix}[b]
+    -0.5 & 0.5 & 0.5 & 0.5\\
+    0.5 & -0.5 & 0.5 & 0.5\\
+    0.5 & 0.5 & -0.5 & 0.5\\
+    0.5 & 0.5 & 0.5 & -0.5
+  \end{gmatrix}
+  *
+  \begin{gmatrix}[b]
+    -2 & 1 & 2 & 1 \\
+  2 & -1 & 2 & 1\\
+  2 & 3 & -4 & 5\\
+  2 & 3 & 0 & -1
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  R =
+  \begin{gmatrix}[b]
+    4 & 2 & -2 & 2\\
+    0 & 4 & -2 & 2\\
+    0 & 0 &  4 & -2\\
+    0 & 0 & 0 & 4
+  \end{gmatrix}
+\end{equation}
+
+Stworzono kod w Python'ie, który wykonuje wyżej wytłumaczoną Faktoryzację QR.\\
 
 \begin{lstlisting}
   import numpy as np
@@ -615,6 +700,7 @@ def gram_schmidt(A):
     return Q, R
 
 \end{lstlisting}
+\newpage
 \section{Zadanie nr. 8}
 
 Niech Ax = b , gdzie , symbol  oznacza iloczyn Kroneckera,
@@ -623,9 +709,6 @@ równomiernego (rand), M = 200, N = 30, oraz   (rozkład normalny - randn).
 Rozwiąż układ równań różnymi metodami bezpośrednimi (eliminacja Gaussa, faktoryzacja LU,
 faktoryzacja QR) i porównaj metody ze względu na czas wykonywania się algorytmów i błąd
 aproksymacji rozwiązania.
-
-
-
 \section{Zadanie nr. 9}
 Znajdź prądy gałęziowe zakładając, że wszystkie rezystancje wynoszą 20 Ohm.
 równania
@@ -760,7 +843,6 @@ mpo
 \]
 
 tego typu benc benc
-
 \section{Wnioski}
 Zgodnie z obliczeniami wyniki obliczeń zostały wykonane prawidłowo
 \end{document} 

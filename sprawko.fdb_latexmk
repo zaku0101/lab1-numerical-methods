@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1710693599.31714 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710693599.88271 0
-  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710693598.59057 18464 c3f16e8ee60fbea0c0b5e7fc96f45692 ""
+["pdflatex"] 1710694733.9269 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710694734.51049 0
+  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710694732.74435 21074 156e0ff6a3017a1943e679c3fed0c3fe ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710495693.88913 86553 91af261fa287312f2fb1f66a097366be ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1710495684.02619 24240993 5f380fc19045342e85560256ac255aba ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
@@ -99,9 +99,9 @@
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/polski.sty" 1710495685.49513 13344 a993928ba746ec4e012bfd315bcc48d8 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty" 1710495158.13645 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty" 1710495158.14252 1618 c5f08dcf49a56107311a81073b35fa4e ""
-  "sprawko.aux" 1710693599.76458 1043 06d7f0d09e8e6ed9509ea63364b71306 "pdflatex"
-  "sprawko.tex" 1710693598.59057 18464 c3f16e8ee60fbea0c0b5e7fc96f45692 ""
-  "sprawko.toc" 1710693599.76554 600 8f766fe9c96f14dfc0abd78f0b330f9f "pdflatex"
+  "sprawko.aux" 1710694734.39893 1043 3a0118f149fddeb2c1128c1cdd1612e4 "pdflatex"
+  "sprawko.tex" 1710694732.74435 21074 156e0ff6a3017a1943e679c3fed0c3fe ""
+  "sprawko.toc" 1710694734.39998 600 82fe4539f83e51235066fc1fe6dc933d "pdflatex"
   "zad5.pdf" 1710494918.3947 743285 9d4ac96b40974cd488b27718a5eeef24 ""
   (generated)
   "sprawko.aux"

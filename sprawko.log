@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.15)  17 MAR 2024 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.15)  17 MAR 2024 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -472,7 +472,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
-[16] [17] [18] [19] [20] (sprawko.aux)
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
+
+ []
+
+[18] [19] [20] [21] (sprawko.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -487,9 +492,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,17n,67p,576b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plmi.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/pltt.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plrm.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plsc.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plms.enc}{/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plme.enc}</Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plbx10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plbx12.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plex10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plmi10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plmi7.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr12.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr17.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr5.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plr7.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy10.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/plsy7.pfb></Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/pl/pltt9.pfb>
-Output written on sprawko.pdf (20 pages, 874771 bytes).
+Output written on sprawko.pdf (21 pages, 880108 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
