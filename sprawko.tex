@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{caption}
 \usepackage{polski}
 \usepackage{indentfirst}
 \usepackage{graphicx}
@@ -708,7 +709,24 @@ Niech Ax = b , gdzie , symbol  oznacza iloczyn Kroneckera,
 równomiernego (rand), M = 200, N = 30, oraz   (rozkład normalny - randn).
 Rozwiąż układ równań różnymi metodami bezpośrednimi (eliminacja Gaussa, faktoryzacja LU,
 faktoryzacja QR) i porównaj metody ze względu na czas wykonywania się algorytmów i błąd
-aproksymacji rozwiązania.
+aproksymacji rozwiązania.\\
+
+Badaniu poddano własne implementacje algorytmów oraz metody dostępne w bibliotece scipy.
+Poniej zestawiono wyniki badań w postaci zmierzonych czasów wykonania poszczegolnych algorytmów oraz obliczone błędy aproksymacji.
+\begin{figure}[h]
+  \includegraphics[scale=0.3]{image.png}
+  \centering
+  \captionsetup[Tabela]{name=New Table Name}
+  \caption*{Tabela. 1 Wykaz czasów wykonania algorytmów}
+  \end{figure}
+
+  \begin{figure}[h]
+    \includegraphics[scale=0.4]{image2.png}
+    \centering
+    \caption*{Tabela. 2 Wykaz błędów aproksymacji algorytmów}
+    \end{figure}
+    
+    \newpage
 \section{Zadanie nr. 9}
 Znajdź prądy gałęziowe zakładając, że wszystkie rezystancje wynoszą 20 Ohm.
 równania

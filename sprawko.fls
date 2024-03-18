@@ -45,6 +45,10 @@ INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/am
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
+INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/polski.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/polski.sty
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/polski/ot4cmr.fd
@@ -200,6 +204,20 @@ INPUT ./zad5.pdf
 INPUT ./zad5.pdf
 INPUT ./zad5.pdf
 INPUT ./zad5.pdf
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image2.png
+INPUT ./image2.png
+INPUT ./image2.png
+INPUT ./image2.png
+INPUT ./image2.png
+INPUT ./image2.png
+INPUT ./image2.png
 INPUT sprawko.aux
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plmi.enc
 INPUT /Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/pltt.enc
