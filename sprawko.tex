@@ -10,6 +10,10 @@
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{gauss}
+
+\DeclareCaptionType{equ}[][List of equations]
+\captionsetup[equ]{labelformat=empty}
+
 %script adding bars in matrix
 \usepackage{etoolbox}
 \makeatletter
@@ -729,138 +733,79 @@ Poniej zestawiono wyniki badań w postaci zmierzonych czasów wykonania poszczeg
     \newpage
 \section{Zadanie nr. 9}
 Znajdź prądy gałęziowe zakładając, że wszystkie rezystancje wynoszą 20 Ohm.
-równania
-mpo
 
-\[ \begin{bmatrix}
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
-  0 & 0 & R & 0 & R & 0\\
-  0 & 0 & -R & R & 0 & 0\\
-  0 & 0 & 0 & 0 & R & -R\\
-  -1 & 0 & 1 & 1 & 0 & 0\\
-  0 & 1 & 1 & 0 & -1 & 0\\
-  0 & 1 & 0 & -1 & 0 & 1\\
+\begin{equ}[!ht]
+\caption{Równania napięciowe}
+\begin{equation}
+  \begin{cases}
+    2I_{3}-2I_{4}=1\\
+    -I_{3}-I_{5}=1\\
+    2I_{6}-2I_{5}=1 
+  \end{cases}\,.
+\end{equation}
+\end{equ}
 
-\end{bmatrix}
-\times
-\begin{bmatrix}
-  I_{1}\\
-  I_{2}\\ 
-  I_{3}\\ 
-  I_{4}\\ 
-  I_{5}\\ 
-  I_{6}\\ 
-\end{bmatrix}
-=
-\begin{bmatrix}
-  E_{1}\\
-  E_{2}\\ 
-  E_{3}\\ 
-  0\\ 
-  0\\ 
-  0\\ 
-\end{bmatrix} \]
+\begin{equ}[!ht]
+  \caption{Równania prądowe}
+  \begin{equation}
+    \begin{cases}
+      I_{2}+I_{3}-I_5=0\\
+      I_{5}+I_{6}-I_1=0\\
+      I_{4}-I_{2}-I_6=0\\
+      I_1-I_3-I_4=0
+    \end{cases}\,.
+  \end{equation}
+  \end{equ}
 
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  0 & 0 & 20 & 0 & 20 & 0 & \BAR & 20\\
-  0 & 0 & -20 & 20 & 0 & 0 & \BAR & 10\\
-  0 & 0 & 0 & 0 & 20 & -20 & \BAR & 10\\
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 1 & 0 & -1 & 0 & 1 & \BAR & 0
-  \rowops
-  \swap03
-  \swap14
-  \swap25
-\end{gmatrix}
-\]
+  \begin{equ}[!ht]
+    \caption{Równania prądowe}
+    \begin{equation}
+      \begin{cases}
+        I_1 - I_3 - I_4 = 0\\
+        I_2 + I_3-I_5 = 0\\
+        -I_3 - I_5 = 1\\
+        2I_3 - 2I_4 = 1\\
+        -2I_5 + 2I_6 = 1\\
+        -I_2 + I_4 -I_6 = 0
+      \end{cases}\,.
+    \end{equation}
+    \end{equ}
+    \newpage
+    Kod obliczający wartości szukanych prądów
+    \begin{lstlisting}
+      import numpy as np
+      from numpy.linalg import solve
+      
+      #Inicjalizacja macierzy A i wektora b
+      A = np.array([ [1, 0, -1, -1, 0, 0],
+                    [0, 1, 1, 0, -1, 0],
+                    [0, 0, -1, 0, -1, 0],
+                    [0, 0, 2, -2, 0, 0],
+                    [0, 0, 0, 0, -2, 2],
+                    [0, -1, 0, 1, 0, -1],])
+      
+      b = np.array([0, 0, -1, -1, -1, 0],dtype=float)
+      
+      #Obliczenie wyników metodą eliminacji Gaussa z pivotingiem
+      x = solve(A,b)
+    \end{lstlisting}
 
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 1 & 0 & -1 & 0 & 1 & \BAR & 0\\
-  0 & 0 & 20 & 0 & 20 & 0 & \BAR & 20\\
-  0 & 0 & -20 & 20 & 0 & 0 & \BAR & 10\\
-  0 & 0 & 0 & 0 & 20 & -20 & \BAR & 10
-  \rowops
-  \add[-1]12
-\end{gmatrix}
-\]
+    \begin{equ}[!ht]
+      \caption{Wyniki obliczeń}
+      \begin{equation}
+        \begin{cases}
+          I_{1}=1\\
+          I_{2}=0.5\\
+          I_{3}=0.25\\
+          I_{4}=0.75\\
+          I_{5}=0.75\\
+          I_{6}=0.25
+        \end{cases}\,.
+      \end{equation}
+      \end{equ}
 
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 0 & -1 & -1 & 1 & 1 & \BAR & 0\\
-  0 & 0 & 20 & 0 & 20 & 0 & \BAR & 20\\
-  0 & 0 & -20 & 20 & 0 & 0 & \BAR & 10\\
-  0 & 0 & 0 & 0 & 20 & -20 & \BAR & 10
-  \rowops
-  \add[20]23
-  \add[-20]24
-\end{gmatrix}
-\]
 
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 0 & -1 & -1 & 1 & 1 & \BAR & 0\\
-  0 & 0 & 0 & -20 & 40 & 20 & \BAR & 20\\
-  0 & 0 & 0 & 40 & -20 & -20 & \BAR & 10\\
-  0 & 0 & 0 & 0 & 20 & -20 & \BAR & 10
-  \rowops
-  \add[2]34
-\end{gmatrix}
-\]
 
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 0 & -1 & -1 & 1 & 1 & \BAR & 0\\
-  0 & 0 & 0 & -20 & 40 & 20 & \BAR & 20\\
-  0 & 0 & 0 & 0 & 60 & 20 & \BAR & 50\\
-  0 & 0 & 0 & 0 & 20 & -20 & \BAR & 10
-  \rowops
-  \add[-\frac1{3}]45
-\end{gmatrix}
-\]
-
-\[
-  \centering
-  \linespread{2}\selectfont
-  \addtolength{\arraycolsep}{10pt}
- \begin{gmatrix}[b]
-  -1 & 0 & 1 & 1 & 0 & 0 & \BAR & 0\\
-  0 & 1 & 1 & 0 & -1 & 0 & \BAR & 0\\
-  0 & 0 & -1 & -1 & 1 & 1 & \BAR & 0\\
-  0 & 0 & 0 & -20 & 40 & 20 & \BAR & 20\\
-  0 & 0 & 0 & 0 & 60 & 20 & \BAR & 50\\
-  0 & 0 & 0 & 0 & 0 & -\frac{80}{3} & \BAR & -\frac{20}{3}
-\end{gmatrix}
-\]
-
-tego typu benc benc
 \section{Wnioski}
 Zgodnie z obliczeniami wyniki obliczeń zostały wykonane prawidłowo
 \end{document} 

@@ -7,4 +7,4 @@
 \contentsline {section}{\numberline {7}Zadanie nr. 7}{17}{}%
 \contentsline {section}{\numberline {8}Zadanie nr. 8}{19}{}%
 \contentsline {section}{\numberline {9}Zadanie nr. 9}{20}{}%
-\contentsline {section}{\numberline {10}Wnioski}{22}{}%
+\contentsline {section}{\numberline {10}Wnioski}{21}{}%

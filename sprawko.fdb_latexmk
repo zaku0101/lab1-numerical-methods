@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1710761998.63359 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710761999.43139 0
-  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710761997.95366 21698 b692de3528b81a0b58acadb192f532de ""
-  "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710761869.33119 86553 91af261fa287312f2fb1f66a097366be ""
+["pdflatex"] 1710789208.2587 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710789209.02588 0
+  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710789207.75749 20654 a023848e7a3344c43b3522a6c4f779d8 ""
+  "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710785871.86589 86553 91af261fa287312f2fb1f66a097366be ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1710495684.02619 24240993 5f380fc19045342e85560256ac255aba ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plmi.enc" 958947240 2005 f094775651a1386335c158fb632529f1 ""
@@ -89,6 +89,7 @@
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty" 1710495158.19087 205167 fca232873050cd2da4f9c0c32402c38a ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1710495158.18177 77022 5c8c440739265e7ba15b8379ece6ecd7 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty" 1710495158.19367 329 f19f5da7234b51d16764e23d20999c73 ""
+  "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newfloat/newfloat.sty" 1710785871.22274 30252 f6e8905c538136e67643aa414a2c9161 ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata.sty" 1710495693.37418 6572 ea530fbbe537629fd97736d33babc07d ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty" 1710495693.37436 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty" 1710495688.9419 54914 ea9713532d0d0ae802ca2446650f9ded ""
@@ -103,9 +104,9 @@
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty" 1710495158.14252 1618 c5f08dcf49a56107311a81073b35fa4e ""
   "image.png" 1710759962.27369 134609 5b2083da85f657430e927a426cb04012 ""
   "image2.png" 1710759987.32885 62416 f8ab5e3fbb521d66c80f377c3b6309cd ""
-  "sprawko.aux" 1710761999.31081 1043 9b1817358826e6605665da116d03a942 "pdflatex"
-  "sprawko.tex" 1710761997.95366 21698 b692de3528b81a0b58acadb192f532de ""
-  "sprawko.toc" 1710761999.31158 600 4a24bb9f915c25000690755b0ac6986d "pdflatex"
+  "sprawko.aux" 1710789208.91472 1570 0ee553665e17c2c3578fda2a5b451e7a "pdflatex"
+  "sprawko.tex" 1710789207.75749 20654 a023848e7a3344c43b3522a6c4f779d8 ""
+  "sprawko.toc" 1710789208.91556 600 80a11cba7b922b715803829d6c050ae2 "pdflatex"
   "zad5.pdf" 1710494918.3947 743285 9d4ac96b40974cd488b27718a5eeef24 ""
   (generated)
   "sprawko.aux"
