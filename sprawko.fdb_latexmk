@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1710838967.55301 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710838968.32957 0
-  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710838966.89484 21469 04bff16a41e94bdaaa3796e301ba2aea ""
+["pdflatex"] 1710839045.99228 "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" "sprawko.pdf" "sprawko" 1710839046.8268 0
+  "/Users/zaku/Desktop/SQL/numerical methods/lab1/lab1 tex/sprawko.tex" 1710839045.25228 21470 3c5ab4b7a1597dae5de68f698fc5ce5e ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1710785871.86589 86553 91af261fa287312f2fb1f66a097366be ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1710495684.02619 24240993 5f380fc19045342e85560256ac255aba ""
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
@@ -104,9 +104,9 @@
   "/Users/zaku/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/indentfirst.sty" 1710495158.14252 1618 c5f08dcf49a56107311a81073b35fa4e ""
   "image.png" 1710759962.27369 134609 5b2083da85f657430e927a426cb04012 ""
   "image2.png" 1710759987.32885 62416 f8ab5e3fbb521d66c80f377c3b6309cd ""
-  "sprawko.aux" 1710838968.21042 1570 0ee553665e17c2c3578fda2a5b451e7a "pdflatex"
-  "sprawko.tex" 1710838966.89484 21469 04bff16a41e94bdaaa3796e301ba2aea ""
-  "sprawko.toc" 1710838968.2111 600 80a11cba7b922b715803829d6c050ae2 "pdflatex"
+  "sprawko.aux" 1710839046.70509 1570 0ee553665e17c2c3578fda2a5b451e7a "pdflatex"
+  "sprawko.tex" 1710839045.25228 21470 3c5ab4b7a1597dae5de68f698fc5ce5e ""
+  "sprawko.toc" 1710839046.70604 600 80a11cba7b922b715803829d6c050ae2 "pdflatex"
   "zad5.pdf" 1710494918.3947 743285 9d4ac96b40974cd488b27718a5eeef24 ""
   (generated)
   "sprawko.aux"
